@@ -9,31 +9,63 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .navbar{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-
     height: 100px;
-    background-color: cadetblue;
+    
 }
 
 .logo{
     flex: 20%;
-    border: 1px solid blue;
+    margin-left: 10%;
+    padding: 20px;
+    /* border: 1px solid blue; */
     text-align: center;
     font-family: 'Great Vibes', cursive;
 
     font-family: 'Cookie', cursive;
-    font-size: 30px;
-    color: white;
-    text-shadow: 2px 2px black;
+    font-size: 40px;
+    
+    color: #261974;
+    text-shadow: 1px 1px white;
 }
 
 .menu{
-    flex: 80%;
-    border: 1px solid red;
+    flex: 70%;
+    /* border: 1px solid red; */
     text-align: right;
     padding: 20px;
+}
+
+.menu a{
+    color: #261974;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover{
+    color: #FF2978;
+    border-top: 4px solid #261974;
+}
+
+#botao{
+    background-color: #261974;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao:hover{
+    border: none;
+    background-color: #FF2978;
 }
