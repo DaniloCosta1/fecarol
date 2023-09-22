@@ -11,6 +11,10 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    background-image: url(img/img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 .navbar{
