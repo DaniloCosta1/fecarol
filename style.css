@@ -11,7 +11,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-image: url(img/img.jpg);
+    /* background-image: url(img/img.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -35,9 +35,9 @@ body{
     font-family: 'Great Vibes', cursive;
 
     font-family: 'Cookie', cursive;
-    font-size: 40px;
+    font-size: 60px;
     
-    color: #261974;
+    color: #153460;
     text-shadow: 1px 1px white;
 }
 
@@ -49,19 +49,19 @@ body{
 }
 
 .menu a{
-    color: #261974;
+    color: #153460;
     text-decoration: none;
     font-size: 20px;
     padding: 20px 16px;
 }
 
 .menu a:hover{
-    color: #FF2978;
-    border-top: 4px solid #261974;
+    color: #F62221;
+    border-top: 4px solid #153460;
 }
 
 #botao{
-    background-color: #261974;
+    background-color: #153460;
     padding: 10px 25px;
     color: white;
     border-radius: 5px;
@@ -71,5 +71,27 @@ body{
 
 #botao:hover{
     border: none;
-    background-color: #FF2978;
+    background-color: #F62221;
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    height: 600px;
+    
+}
+
+.headline{
+    flex: 40%;
+    margin-left: 10%;
+    border: 1px solid black;
+    background-image: linear-gradient(to right, white, #00BCD2);
+}
+
+.img{
+    margin-right: 10%;
+    flex: 40%;
+    border: 1px solid rgb(236, 0, 193);
+    background-color: #00BCD2;
+  
 }
