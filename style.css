@@ -36,10 +36,12 @@ body{
 
     font-family: 'Cookie', cursive;
     font-size: 60px;
+    text-shadow: 1px 1px #F58627;
     
     color: #153460;
-    text-shadow: 1px 1px white;
+    
 }
+
 
 .menu{
     flex: 70%;
@@ -79,19 +81,29 @@ body{
     flex-flow: row wrap;
     height: 600px;
     
+    
 }
 
 .headline{
+    display: flex;
+    flex-direction: column;
     flex: 40%;
     margin-left: 10%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-image: linear-gradient(to right, white, #00BCD2);
+    justify-content: center;
+}
+
+.headline h2{
+    font-size: 70px;
+    font-size: 30px;
+    color: #153460;
 }
 
 .img{
     margin-right: 10%;
     flex: 40%;
-    border: 1px solid rgb(236, 0, 193);
+    /* border: 1px solid rgb(236, 0, 193); */
     background-color: #00BCD2;
   
 }
