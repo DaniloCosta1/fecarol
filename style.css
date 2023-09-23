@@ -24,6 +24,7 @@ body{
     align-items: center;
     height: 100px;
     
+    
 }
 
 .logo{
@@ -31,15 +32,11 @@ body{
     margin-left: 10%;
     padding: 20px;
     /* border: 1px solid blue; */
-    text-align: center;
+    text-align: left;
     font-family: 'Great Vibes', cursive;
-
-    font-family: 'Cookie', cursive;
+    
     font-size: 60px;
-    text-shadow: 1px 1px #F58627;
-    
     color: #153460;
-    
 }
 
 
@@ -79,7 +76,7 @@ body{
 .header{
     display: flex;
     flex-flow: row wrap;
-    height: 600px;
+    height: 400px;
     
     
 }
@@ -92,6 +89,7 @@ body{
     /* border: 1px solid black; */
     background-image: linear-gradient(to right, white, #00BCD2);
     justify-content: center;
+    
 }
 
 .headline h2{
@@ -105,5 +103,23 @@ body{
     flex: 40%;
     /* border: 1px solid rgb(236, 0, 193); */
     background-color: #00BCD2;
+    
   
+}
+
+section{
+    margin-top: 80px;
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 400px;
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+    color: #153460;
+
 }
