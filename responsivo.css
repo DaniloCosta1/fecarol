@@ -37,7 +37,7 @@
         display: none;
     }
 
-    /*____________________________________________*/
+    /*_______________HEADER_____________________________*/
 
     .header{
         display: flex;
@@ -69,5 +69,12 @@
     .grupo h3{
         display: flex;
         justify-content: center;
+    }
+
+    /*_______________SECTION__________________*/
+
+    section{
+        border: 1px solid red;
+        padding: 2px;
     }
 }
