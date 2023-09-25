@@ -1,4 +1,8 @@
 @media screen and (max-width:1024px) {
+
+    baody{
+        display: block;
+    }
     .navbar{
         position: relative;
         height: 30px;
@@ -13,6 +17,28 @@
         text-align: center;
     }
 
+    /*_________________________________*/
+
+    .header{
+
+        display: block;
+        /* background-color: aquamarine; */
+        width: 100%;
+    }
+
+    .headline{
+        flex: 100%;
+        display: flex;
+        margin: 5%;
+        text-align: center;
+        
+        
+    }
+    
+    .img{
+        flex: 100%;
+        margin: 5%;
+    }
 
     
 }
