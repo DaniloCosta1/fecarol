@@ -11,10 +11,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    /* background-image: url(img/img.jpg); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
+    
 }
 
 .navbar{
@@ -35,7 +32,6 @@ body{
     /* border: 1px solid blue; */
     text-align: left;
     font-family: 'Great Vibes', cursive;
-    
     font-size: 60px;
     color: #153460;
 }

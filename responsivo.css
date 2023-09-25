@@ -1,44 +1,73 @@
 @media screen and (max-width:1024px) {
 
-    baody{
-        display: block;
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
+    
+    body{
+        font-family: 'Roboto', sans-serif;
+        
+    }
+    
     .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
         position: relative;
-        height: 30px;
+        width: 100%;
+        text-align: center;
+        /* border: 3px solid red; */
+        margin: 3px;
+    }
+
+    .logo{
+        padding: 10px;
+        /* border: 1px solid blue; */
+        text-align: center;
+        color: #153460;
+        font-family: 'Great Vibes', cursive;
+        font-size: 50px;
     }
 
     .menu{
         display: none;
     }
 
-    .logo{
-        margin: 0;
-        text-align: center;
-    }
-
-    /*_________________________________*/
+    /*____________________________________________*/
 
     .header{
-
-        display: block;
-        /* background-color: aquamarine; */
-        width: 100%;
-    }
-
-    .headline{
-        flex: 100%;
         display: flex;
-        margin: 5%;
-        text-align: center;
-        
+        flex-direction: column-reverse;
         
     }
-    
-    .img{
-        flex: 100%;
-        margin: 5%;
+   
+    .headline{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 10px;
+        align-items: center;
+        background-image: linear-gradient(to top, white, #00BCD2);
+        
     }
 
-    
+    .headline a {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        /* border: 1px solid red;  */
+    }
+
+    .headline a > img{
+        width: 80%;
+    }
+
+    .grupo h3{
+        display: flex;
+        justify-content: center;
+    }
 }
