@@ -66,10 +66,15 @@
         
     }
 
+    .headline h1{
+        padding-bottom: 15px;
+    }
+
     .headline h2{
         
         margin: 0;
         padding: 0px;
+        padding-bottom: 10px;
         text-align: center;
     }
 
