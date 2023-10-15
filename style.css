@@ -34,7 +34,7 @@
         /* border: 1px solid blue; */
         text-align: left;
         font-family: 'Great Vibes', cursive;
-        font-size: 60px;
+        font-size: 40px;
         color: #153460;
     }
     
@@ -184,6 +184,7 @@
         color: white;
         padding: 20px;
         border-top: 2px solid #F38629;
+        font-size: 8px;
     }
 
 }
